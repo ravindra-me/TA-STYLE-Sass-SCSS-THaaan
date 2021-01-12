@@ -1,3 +1,4 @@
+
 .nav li {
     margin-left: 2rem;
 }
@@ -49,7 +50,9 @@ header{
         }
         ul li:hover{
             background-color: $active-color;
-            color: white;
+            a{
+                color: white;
+            }
         }
         .sub-nav{
             display: none;
@@ -63,7 +66,7 @@ header{
             top: 0;
             background-color: $header-color;
             margin-top: 6.5rem;
-            transform: translateX(-10%);
+            transform: translateX(-1%);
             left: 0;
             padding: 1.5rem;
             width: 15rem;
@@ -72,9 +75,14 @@ header{
                 margin-top: 0.5rem;
                 padding: 0.5rem;
                 border-radius: 0.25rem;
+                a{
+                    color: $text-color;
+                }
             }
             li:hover{
+                a{
                 color: white;
+                }
             }
         }
     }
@@ -144,7 +152,7 @@ header{
     }
 
 }
-main section:nth-child(4) {
+#home main section:nth-child(4) {
     p{
         margin: 1.5rem 0;
     }
