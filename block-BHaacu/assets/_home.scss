@@ -1,3 +1,4 @@
+
 .nav li {
     margin-left: 2rem;
 }
@@ -49,7 +50,9 @@ header{
         }
         ul li:hover{
             background-color: $active-color;
-            color: white;
+            a{
+                color: white;
+            }
         }
         .sub-nav{
             display: none;
@@ -63,7 +66,7 @@ header{
             top: 0;
             background-color: $header-color;
             margin-top: 6.5rem;
-            transform: translateX(-10%);
+            transform: translateX(-1%);
             left: 0;
             padding: 1.5rem;
             width: 15rem;
@@ -72,9 +75,14 @@ header{
                 margin-top: 0.5rem;
                 padding: 0.5rem;
                 border-radius: 0.25rem;
+                a{
+                    color: $text-color;
+                }
             }
             li:hover{
+                a{
                 color: white;
+                }
             }
         }
     }
@@ -102,7 +110,10 @@ header{
         @include btn;
         background-color: $primary-color;
         color: white;
-        border: none;
+        &:hover{
+            background-color: white;
+            color: $primary-color;
+        }
     }
 }
 
@@ -129,6 +140,10 @@ header{
             @include btn;
             color: $primary-color;
             margin: 1.5rem 0;
+            &:hover{
+                background: $primary-color;
+                color: white;
+            }
         }
     }
 
@@ -141,16 +156,24 @@ header{
     .btn {
         @include btn;
         color: $primary-color;
+        &:hover{
+            background-color: $primary-color;
+            color: white;
+        }
     }
 
 }
-main section:nth-child(4) {
+#home main section:nth-child(4) {
     p{
         margin: 1.5rem 0;
     }
     .btn {
         @include btn;
         color: $primary-color;
+        &:hover{
+            background-color: $primary-color;
+            color: white;
+        }
     }
     img{
         border-radius: 0.25rem;
@@ -173,6 +196,10 @@ main section:nth-child(4) {
         border: 1px solid #fff;
         color:white;
         padding: 0.7rem 3rem;
+        &:hover{
+            background-color: white;
+            color: $primary-color;
+        }
     }
 }
 .leader-sec {
