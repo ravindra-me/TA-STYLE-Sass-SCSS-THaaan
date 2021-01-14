@@ -578,6 +578,11 @@ footer .container > div:last-child p span {
   background-color: white;
 }
 
+.leader-sec h5 {
+  color: #de5045;
+  font-size: 2rem;
+}
+
 .mission article ul li i {
   font-size: 3rem;
   margin-right: 1.5rem;
@@ -951,7 +956,7 @@ footer .container > div:last-child p span {
   .our-product article div {
     width: 20%;
   }
-  .flex-30, .flex-32, .flex-46, .flex-25, .flex-70, .flex-44, .flex-22 {
+  .flex-30, .flex-32, .flex-46, .flex-25, .flex-70, .flex-44, .flex-22, .flex-36 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
@@ -1004,7 +1009,7 @@ footer .container > div:last-child p span {
             align-items: center;
     padding-top: 5rem;
     color: white;
-    background-color: rgba(40, 62, 125, 0.7);
+    background-color: rgba(40, 62, 125, 0.9);
   }
   header .header-sec-2 .nav li {
     padding: 0;
