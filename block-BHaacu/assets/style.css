@@ -56,7 +56,7 @@ table {
 }
 
 html {
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 body {
@@ -302,14 +302,15 @@ header section:last-child .brand h2 {
 }
 
 header section:last-child .nav li {
-  margin-left: 3rem;
+  margin-left: 1rem;
   font-size: 1.25rem;
-  padding: 2.5rem 1rem;
 }
 
 header section:last-child ul li a {
   color: #515151;
   font-weight: 700;
+  display: inline-block;
+  padding: 2rem 1rem;
 }
 
 header section:last-child ul li span {
@@ -337,7 +338,7 @@ header section:last-child .sub-menu:hover .sub-nav {
   position: absolute;
   top: 0;
   background-color: #f2f2f2;
-  margin-top: 6.5rem;
+  margin-top: 5rem;
   -webkit-transform: translateX(-1%);
           transform: translateX(-1%);
   left: 0;
@@ -347,13 +348,13 @@ header section:last-child .sub-menu:hover .sub-nav {
 }
 
 header section:last-child .sub-menu:hover .sub-nav li {
-  margin-top: 0.5rem;
   padding: 0.5rem;
   border-radius: 0.25rem;
 }
 
 header section:last-child .sub-menu:hover .sub-nav li a {
   color: #878e94;
+  padding: 0.5rem 0;
 }
 
 header section:last-child .sub-menu:hover .sub-nav li:hover a {
@@ -513,6 +514,10 @@ header section:last-child .sub-menu:hover .sub-nav li:hover a {
   color: #de5045;
 }
 
+.leader-sec {
+  padding-top: 4rem;
+}
+
 .leader-sec p {
   margin-top: 2.5rem;
 }
@@ -529,6 +534,11 @@ header section:last-child .sub-menu:hover .sub-nav li:hover a {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 10%;
           flex: 0 1 10%;
+}
+
+.client-sec img {
+  -webkit-filter: grayscale(500%);
+          filter: grayscale(500%);
 }
 
 footer {
@@ -956,7 +966,7 @@ footer .container > div:last-child p span {
   .our-product article div {
     width: 20%;
   }
-  .flex-30, .flex-32, .flex-46, .flex-25, .flex-70, .flex-44, .flex-22, .flex-36 {
+  .flex-30, .flex-32, .flex-46, .flex-25, .flex-70, .flex-44, .flex-22, .flex-36, .flex-20, .flex-48 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
@@ -967,7 +977,7 @@ footer .container > div:last-child p span {
     height: auto;
   }
   header section:last-child .nav li {
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
     margin: 0;
   }
   header section:last-child .nav li li:hover {
@@ -1007,7 +1017,7 @@ footer .container > div:last-child p span {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-top: 5rem;
+    padding-top: 17rem;
     color: white;
     background-color: rgba(40, 62, 125, 0.9);
   }
