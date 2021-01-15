@@ -37,13 +37,14 @@ header{
             color: black;
         }
         .nav li{
-            margin-left: 3rem;
+            margin-left: 1rem;
             font-size: 1.25rem;
-            padding: 2.5rem 1rem;
         }
         ul li a{
             color: $link-text-color;
             font-weight: 700;
+            display: inline-block;
+            padding: 2rem 1rem;
         }
         ul li span{
             margin-left: 1rem;
@@ -65,18 +66,18 @@ header{
             position: absolute;
             top: 0;
             background-color: $header-color;
-            margin-top: 6.5rem;
+            margin-top: 5rem;
             transform: translateX(-1%);
             left: 0;
             padding: 1.5rem;
             width: 15rem;
             border-radius: 0.25rem;
             li{
-                margin-top: 0.5rem;
                 padding: 0.5rem;
                 border-radius: 0.25rem;
                 a{
                     color: $text-color;
+                    padding: 0.5rem 0;
                 }
             }
             li:hover{
@@ -203,6 +204,7 @@ header{
     }
 }
 .leader-sec {
+    padding-top: 4rem;
     p{
         margin-top: 2.5rem;
     }
@@ -214,6 +216,9 @@ header{
     }
     ul li{
         flex: 0 1 10%;
+    }
+    img {
+        filter: grayscale(500%);
     }
 }
 

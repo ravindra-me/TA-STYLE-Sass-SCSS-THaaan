@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap');
+
 $font-family: 'Archivo', sans-serif;
 *, *::before, *::after{
     box-sizing: border-box;
     margin: 0;
 }
 html{
-    font-size: 1rem;
+    font-size: 16px;
 }
 body{
     font-family: $font-family;
